@@ -1,5 +1,6 @@
 import React from 'react';
 import clsx from 'clsx';
+import Typewriter from 'typewriter-effect';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
@@ -13,12 +14,20 @@ function HomepageHeader() {
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <p className="hero__subtitle">
+        <Typewriter
+            options={{
+              strings: ['Alone we can do so little; together we can do so much.', 'Talent wins games, but teamwork and intelligence win championships', 'Knowledge sharing is essential to economic survival'],
+              autoStart: true,
+              loop: true,
+            }}
+          />
+        </p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            to="/blog/welcome">
+            Quality Education 
           </Link>
         </div>
       </div>
@@ -30,8 +39,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`${siteConfig.title}`}
+      description="GSU 100 level past question and answer <head />">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
