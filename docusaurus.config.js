@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Comminity Ink',
+  title: 'community Ink',
   tagline: '',
   url: 'https://comminityink.netlify.app/',
   baseUrl: '/',
@@ -62,7 +62,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'comminityink',
+        title: 'community ink',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.png',
