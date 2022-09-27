@@ -74,10 +74,17 @@ const config = {
             position: 'left',
             label: 'past Question',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            type: 'doc',
+            docId: 'timetable',
+            position: 'left',
+            label: 'Timetable',
+          },
+          
+          {to: '/blog', label: 'Blogs', position: 'left'},
           {
             href: 'https://github.com/open-source-learners/',
-            label: 'GitHub',
+            label: 'contribute',
             position: 'right',
           },
         ],
