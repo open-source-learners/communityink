@@ -1,61 +1,66 @@
 # The Website/App community ink
-Comminity Ink is an Open Source project aims to to build a social media flatform for studens in various higher institutions
+Community Ink is an Open Source project aims to to build a social media flatform for studens in various higher institutions
 to get full access to learning resources of their campus, be updated on recent events and much more campus related activities.  
 
 
-# Technology used by the Website
+# Project structure
+comminityink
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator, which further extended to Mern Stack application by adding custom react componets and node/express backend technology( i.e technologies used are html,css,JavaScript, React, Nodejs/Express and Mongodb).
+├── blog
 
-# Who can Contribute?
-There is no specific skill needed, therefore any one can contribute regardless of which field or background you are coming from, whether you are a programmer, UI/UX Designer, writer or any other not mentioned skill here.
+│   ├── welcome.md
+├── docs
 
-# How to Contribute?
-### You have a feature That you wnat it to be added to the app?
-create an Issue describing the the fearture you are having.
-Or if you are a developer and you worked the new feature, just make a pull request.
+│   ├── doc1.md
 
-### You come accross problem/bug or strange behaviour while working with the app?
-create an Issue addressing the bad behaviour and how it supposed to be.
-Additionally if you have an idea of how to solve the problem explain the solution. Or if you are developer and you solved the problem, just make a pull request.
+│   ├── doc2.md
 
-### You come accross a typing error in the home page while working with the app?
-Contribut by creating an Issue describing the the the typo.
-Or just make a pull request if you have already corrected the typo.
+│   ├── doc3.md
 
-## For Developers To Get Started
+│   └── mdx.md
 
-### Colone the repo
-type this
-```
-git clone https://github.com/open-source-learners/comminityink.git
-```
-or this 
+├── src
 
-```
-git clone git@github.com:open-source-learners/comminityink.git
-```
+│   ├── css
 
-This command downloads the code repo of the project and stores it locally on your machine, which includes source codes and images used in the project.
-# Requirements
- Before you install the dependencies make sure your have compatible Node.Js installed.
- Required Version is Node.js version 16.14 or above (which can be checked by running node -v). You can use nvm for managing multiple Node versions on a single machine installed.
-When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+│   │   └── custom.css
 
-### install the Dependencies
-```
-npm i
+│   └── pages
 
-```
-### Running on Local Development Server
+│       ├── styles.module.css
 
-```
-npm start
-```
+│       └── index.js
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+├── static
+
+│   └── img
+
+├── docusaurus.config.js
+
+├── package.json
+
+├── README.md
+
+├── sidebars.js
+
+└── yarn.lock
 
 
+# Project structure rundown
 
+**/blog/** - Contains the blog Markdown files. You can delete the directory if you've disabled the blog plugin, or you can change its name after setting the path option. More details can be found in the blog guide
 
+**/docs/** - Contains the Markdown files for the docs. Customize the order of the docs sidebar in sidebars.js. You can delete the directory if you've disabled the docs plugin, or you can change its name after setting the path option. More details can be found in the docs guide
+
+**/src/** - Non-documentation files like pages or custom React components. You don't have to strictly put your non-documentation files here, but putting them under a centralized directory makes it easier to specify in case you need to do some sort of linting/processing
+
+**/src/pages** - Any JSX/TSX/MDX file within this directory will be converted into a website page. More details can be found in the pages guide
+
+**/static/** - Static directory. Any contents inside here will be copied into the root of the final build directory
+
+**/docusaurus.config.js** - A config file containing the site configuration. This is the equivalent of siteConfig.js in Docusaurus v1
+
+**/package.json** - A Docusaurus website is a React app. You can install and use any npm packages you like in them
+
+/sidebars.js - Used by the documentation to specify the order of documents in the sidebar
 

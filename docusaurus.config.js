@@ -12,7 +12,8 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon/favicon.ico',
+  
   //plugin progressive web app
   plugins: [
     [
@@ -96,7 +97,7 @@ const config = {
         title: 'community ink',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.png',
+          src: 'img/favicon/logo.png',
         },
         items: [
           {
