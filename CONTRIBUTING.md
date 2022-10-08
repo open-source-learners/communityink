@@ -22,20 +22,20 @@ Additionally if you have an idea of how to solve the problem explain the solutio
 
 ### You come accross a typing error in the home page while working with the app?
 
-Contribut by creating an Issue describing the the the typo.
+Contribute by creating an Issue describing the typo.
 Or just make a pull request if you have already corrected the typo.
 
 ## For Developers To Get Started
 
-### Clone the repo
+### Clone this repository
 
-type this
+using git https
 
 ```
 git clone https://github.com/open-source-learners/comminityink.git
 ```
 
-or this
+or git ssh
 
 ```
 git clone git@github.com:open-source-learners/comminityink.git
@@ -49,14 +49,14 @@ Before you install the dependencies make sure your have compatible Node.Js insta
 Required Version is Node.js version 16.14 or above (which can be checked by running node -v). You can use nvm for managing multiple Node versions on a single machine installed.
 When installing Node.js, you are recommended to check all checkboxes related to dependencies.
 
-### install the Dependencies
+### Install the Dependencies
 
 ```
-npm i
+npm install
 
 ```
 
-### Running on Local Development Server
+### Run on Local Development Server
 
 ```
 npm start
