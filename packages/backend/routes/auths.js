@@ -4,6 +4,7 @@ const router = express.Router();
 
 
 router.post('/login',(req,res)=>{
+    console.log(req.body)
     res.json({msg:"Dear user you hit the login route"})
 });
 

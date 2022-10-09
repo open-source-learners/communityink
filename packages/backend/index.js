@@ -1,6 +1,21 @@
 const express = require('express');
 const app = express();
-var bodyParser = require('body-parser')
+var bodyParser = require('body-parser');
+const mongoose = require("mongoose");
+const mongo_uri = process.env.DB_URI;
+
+
+// connecting mongodb
+
+mongoose.connect('mongodb://127.0.0.1:27017/studoor',{
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+},(err)=>{
+    if(err){
+        console.log(err)
+    }
+    console.log("mongo db is connected successfully")
+})
 
 // parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: false }))
