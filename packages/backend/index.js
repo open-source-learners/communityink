@@ -1,7 +1,12 @@
 const express = require('express');
-const app = express()
+const app = express();
+var bodyParser = require('body-parser')
 
-// app.use({extends})
+// parse application/x-www-form-urlencoded
+app.use(bodyParser.urlencoded({ extended: false }))
+
+// parse application/json
+app.use(bodyParser.json())
 
 
 app.get('/', (req,res)=>{
