@@ -4,9 +4,13 @@
   "description": "a backend system for studoor an acdemic social platform",
   "main": "index.js",
   "scripts": {
-    "start":"node index.js",
+    "start": "node index.js",
     "test": "echo testing web server"
   },
   "author": "arman grema",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.6.5"
+  }
 }
