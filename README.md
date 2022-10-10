@@ -63,4 +63,8 @@ comminityink
 **/package.json** - A Docusaurus website is a React app. You can install and use any npm packages you like in them
 
 /sidebars.js - Used by the documentation to specify the order of documents in the sidebar
+## Thanks to all the contributors ❤️
+<a href="https://github.com/open-source-learners/comminityink/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=open-source-learners/comminityink" />
+</a>
 
