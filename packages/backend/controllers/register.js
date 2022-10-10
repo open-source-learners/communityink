@@ -30,10 +30,10 @@ module.exports = (req,res)=>{
                         dept
                     })
                     newUser.save((ero,savedUser)=>{
-                        console.log(gen_tok(savedUser._id));
+                        // console.log(gen_tok(savedUser._id));
+                        res.json({savedUser,token:gen_tok(savedUser._id)})
                     })
-                    console.log(process.env.jwt_token_sec)
-                    res.end()
+
                 });
             }
 
