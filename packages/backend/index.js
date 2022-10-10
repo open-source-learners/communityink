@@ -4,7 +4,8 @@ var bodyParser = require('body-parser');
 const mongoose = require("mongoose");
 const mongo_uri = process.env.DB_URI;
 
-
+//config dotenv
+require('dotenv').config()
 // connecting mongodb
 
 mongoose.connect('mongodb://127.0.0.1:27017/studoor',{
