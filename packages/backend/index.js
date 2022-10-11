@@ -31,4 +31,5 @@ app.get('/', (req,res)=>{
 
 app.use('/auths', require('./routes/auths'));
 
+
 app.listen(4020, console.log('server is running on port 4020'));

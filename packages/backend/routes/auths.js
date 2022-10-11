@@ -7,7 +7,7 @@ const logUser = require("../controllers/login");
 // register user
 router.post('/register',registerUser)
 // login user
-router.post('login', logUser);
+router.post('/login', logUser);
 // reset password
 router.post('/password/reset',(req,res)=>{
     console.log(req.body)
