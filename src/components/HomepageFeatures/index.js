@@ -22,7 +22,7 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Comminity',
+    title: 'Community',
     Svg: require('@site/static/img/undraw_team_re_0bfe.svg').default,
     description: (
       <>
