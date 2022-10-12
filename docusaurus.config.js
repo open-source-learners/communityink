@@ -94,7 +94,7 @@ const config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
-
+//
   presets: [
     [
       'classic',
@@ -126,31 +126,87 @@ const config = {
     ],
   ],
 
+  //navbar
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      // 
+      liveCodeBlock: {
+        playgroundPosition: 'bottom',
+      }, 
+      // ducs
+      docs: {
+        sidebar: {
+          hideable: true,
+          autoCollapseCategories: true,
+        },
+      },
+      // Announcement  
+      announcementBar: {
+        id: 'announcementBar-2', // Increment on change
+        isCloseable: false,
+        content: 
+        //  'We are looking to revamp our docs, please fill <a target="_blank" rel="noopener noreferrer" href="#">this survey</a>',
+        // backgroundColor: '#fafbfc',
+        // textColor: '#091E42',
+         `⭐️ If you like Community Ink, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/open-source-learners/comminityink">GitHub</a>`,
+      },
       navbar: {
+        // hideOnScroll: true,
         title: 'community ink',
         logo: {
           alt: 'My Site Logo',
           src: 'img/favicon/logo.png',
         },
-        items: [
+        items: [             
           {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'past Question',
-          },
-                
-          {to: '/blog', label: 'Blogs', position: 'left'},
-          {
-            href: 'https://github.com/open-source-learners/',
-            label: 'contribute',
+            type: 'search',
             position: 'right',
           },
+          // Navbar dropdown
+          {
+            type: 'dropdown',
+            label: 'Materials',
+            position: 'left',
+            items: [
+              {
+                type: 'doc',
+                label: 'HandBook',
+                docId: 'handBook/handBook',
+              },
+              {
+                type: 'doc',
+                label: 'Science',
+                docId: 'intro',
+                
+              },
+              {
+                type: 'doc',
+                label: 'Arts and Social Science',
+                docId: 'intro',
+                
+              },
+              {
+                type: 'doc',
+                label: 'Education',
+                docId: 'intro',
+                
+              },
+                     
+            ],
+          },
+          {to: '/blog', label: 'Blogs', position: 'left'},
+          {
+            href: 'https://github.com/open-source-learners/comminityink',
+            position: 'right',
+            className: 'header-github-link',
+            'aria-label': 'GitHub repository',
+          },
+
         ],
       },
+      // navbar end
+
       footer: {
         style: 'dark',
         links: [
