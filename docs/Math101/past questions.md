@@ -6,8 +6,12 @@ sidebar_position: 1
 
 ![](2017.png)
 
+[solved by :+1: :pray: **Usman Ardo** :green_heart::pray: 
+](answer.md)
+
 ## Past Question 2019
 
 ![](img/2019pQ.png)
 
-[Solution](answer.md)
+[solved by :+1: :pray: **Usman Ardo** :green_heart::pray: 
+](answer.md)

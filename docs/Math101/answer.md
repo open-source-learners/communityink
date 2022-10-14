@@ -1,13 +1,27 @@
 ---
 sidebar_position: 2
 ---
-# Solution 2019 past Question 
-solve by :+1: :pray: :green_heart:
+# Solution 2017 and 2019 past Question 
+solved by :+1: :pray: **Usman Ardo** :green_heart::pray: 
 
- ![](img/sgnture.png)
+# Question 2017
+![](2017.png)
 
-:green_heart: :green_heart: :green_heart:
-# Question
+# Solution
+
+![](img/ans17a.png)
+![](img/ans17b.png)
+![](img/ans17c.png)
+![](img/ans17d.png)
+![](img/ans17e.png)
+![](img/ans17f.png)
+![](img/ans17g.png)
+![](img/ans17h.png)
+
+solved by :+1: :pray: **Usman Ardo** :green_heart::pray: 
+
+
+# Question 2019
 ![](img/2019pQ.png)
 
 # Solution
@@ -25,7 +39,4 @@ solve by :+1: :pray: :green_heart:
 ![](img/ans19l.png)
 ![](img/ans19m.png)
 
-
-:green_heart: :+1: :green_heart:
-![](img/sgnture.png)
-:green_heart: :+1: :green_heart:
+solved by :+1: :pray: **Usman Ardo** :green_heart::pray: 

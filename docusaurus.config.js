@@ -214,7 +214,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Materials',
                 to: '/docs/intro',
               },
             ],
@@ -223,7 +223,7 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
+                label: 'Telegram',
                 href: 'https://github.com/open-source-learners/',
               },
               {
@@ -231,7 +231,7 @@ const config = {
                 href: 'https://github.com/open-source-learners/',
               },
               {
-                label: 'Twitter',
+                label: 'whatsApp',
                 href: 'https://github.com/open-source-learners/',
               },
             ],
