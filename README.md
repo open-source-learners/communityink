@@ -70,5 +70,5 @@ comminityink
 
 ### Thanks to all Stargazers ⭐️
 
-[Thanks to all stargazers](https://git-lister.onrender.com/api/stars/open-source-learners/comminityink?limit=15)
+[![Thanks to all stargazers](https://git-lister.onrender.com/api/stars/open-source-learners/comminityink?limit=15)](https://github.com/open-source-learners)
 
