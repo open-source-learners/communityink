@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 # Solution 2017 and 2019 past Question 
-solved by :+1: :pray: **Usman Ardo** :green_heart::pray: 
+solved by **Usman Ardo Darumfah**  
 
 # Question 2017
 ![](2017.png)
@@ -18,7 +18,7 @@ solved by :+1: :pray: **Usman Ardo** :green_heart::pray:
 ![](img/ans17g.png)
 ![](img/ans17h.png)
 
-solved by :+1: :pray: **Usman Ardo** :green_heart::pray: 
+solved by **Usman Ardo Darumfah** 
 
 
 # Question 2019
