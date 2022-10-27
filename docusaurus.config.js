@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'community Ink',
   tagline: '',
-  url: 'https://comminityink.netlify.app/',
+  url: 'https://communityink.netlify.app/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -85,7 +85,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'open-source-learners', // Usually your GitHub org/user name.
-  projectName: 'comminityink', // Usually your repo name.
+  projectName: 'communityink', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -197,7 +197,7 @@ const config = {
           },
           {to: '/blog', label: 'Blogs', position: 'left'},
           {
-            href: 'https://github.com/open-source-learners/comminityink',
+            href: 'https://github.com/open-source-learners/communityink',
             position: 'right',
             className: 'header-github-link',
             'aria-label': 'GitHub repository',
