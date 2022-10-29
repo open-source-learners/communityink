@@ -18,12 +18,12 @@ export default function RouterPaths() {
             <Route path="/" element={<Landing/>}/>
             <Route path="/login" element={<Login/>}/>
             <Route path="/register" element={<Register/>}/>
-            <Route path="/app" element={<Home/>}>
+            {/* <Route path="/app" element={<Home/>}>
                 <Route path="/profile" element={<Profile/>}/>
                 <Route path="/events" element={<Profile/>}/>
                 <Route path="/resources" element={<Profile/>}/>
                 <Route path="/notification" element={<Profile/>}/>
-            </Route>
+            </Route> */}
             
         </Routes>
     )

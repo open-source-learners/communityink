@@ -28,8 +28,10 @@ app.use(bodyParser.json())
 app.get('/', (req,res)=>{
     res.send("<h1>Welcome to studoor</h1>")
 })
-
+// application external apis
 app.use('/auths', require('./routes/auths'));
 
+// application internal apis
+app.use('/app', require('./routes/apps'))
 
 app.listen(4020, console.log('server is running on port 4020'));
