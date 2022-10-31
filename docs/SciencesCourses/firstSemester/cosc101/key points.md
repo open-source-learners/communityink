@@ -3,7 +3,11 @@ sidebar_position: 1
 ---
 
 
+<<<<<<< Updated upstream:docs/SciencesCourses/firstSemester/cosc101/key points.md
 # Cosc 101 Keypoints                                                                                                                                 
+=======
+# Cosc101 Keypoints                                                                                                                                 
+>>>>>>> Stashed changes:docs/SciencesCourses/Level_1/firstSemester/cosc101/key points.md
 **Computer** can be defined as an electronic device that takes data as input from the user, processes the data under control of set of instructions (called program),stores the data and generates result as output in a 
 required format. 
 
@@ -15,40 +19,55 @@ Any digital computer carries out five functions as follows:
 4. Generates the output 
 5. Controls all the above four steps. 
 
-**CHARACTERISTICS OF COMPUTERS                                                                                                                                          *High Speed*** 
+**CHARACTERISTICS OF COMPUTERS**
+
+  ***High Speed*** 
 
 Computer has units of speed in microsecond, nanosecond, and even the 
 
-picoseconds.                                                                                                                                                                                                               ***Accuracy*** 
+picoseconds. 
 
-In addition to being very fast, computers are very accurate.                                                                                                                              ***Storage*** 
+***Accuracy*** 
+
+In addition to being very fast, computers are very accurate.
+
+ ***Storage*** 
 
 A computer has a very large storage capacity. It can store 
 
+<<<<<<< Updated upstream:docs/SciencesCourses/firstSemester/cosc101/key points.md
 large amount of data such as images, videos, text, audios and many others.                                                                                                   ***Diligence*** 
+=======
+large amount of data such as images, videos, text, audio and many others.
+
+***Diligence*** 
+>>>>>>> Stashed changes:docs/SciencesCourses/Level_1/firstSemester/cosc101/key points.md
 
 Unlike human beings, a computer is free from monotony, tiredness and lack of 
 
-concentration.                                                                                                                                                                                                              ***Versatility*** 
+concentration.
+
+***Versatility*** 
 
 A computer is very flexible in performing the jobs and can be used to solve 
 
-problems related to various fields.                                                                                                                                                                          ***Automation*** 
+problems related to various fields.
 
-Automation means ability to perform the given task automatically.                                                                                                                 **BRIEF HISTORY OF COMPUTERS** 
+***Automation*** 
 
-Trying to use machines to solve mathematical problems can be traced to the early 
+Automation means ability to perform the given task automatically.
 
-17th century. Wilhelm Schickhard, Blaise Pascal, and Gottfried Leibnitz were 
+**BRIEF HISTORY OF COMPUTERS** 
 
-among mathematicians who designed and implemented calculators that were 
+Trying to use machines to solve mathematical problems can be traced to the early 17th century. Wilhelm Schickhard, Blaise Pascal, and Gottfried Leibnitz were among mathematicians who designed and implemented calculators that were  capable of addition, subtraction, multiplication, and division. The first multipurpose or programmable computing device was probably Charles Babbage's Difference Engine, which was begun in 1823 but never completed. In 1842, Babbage designed a more ambitious machine, called the Analytical Engine but unfortunately it was also only partially completed.
 
-capable of addition, subtraction, multiplication, and division. The first multipurpose or programmable 
+ **EVOLUTION AND GENERATIONS OF COMPUTERS**
 
-computing device was probably Charles Babbage's 
+ ***First Generation Computers***
 
-Difference Engine, which was begun in 1823 but never completed. In 1842, 
+The period of first generation was 1945-1959. The computers of first generation used vacuum tubes as the basic components for memory and circuitry for CPU *Central Processing Unit*.
 
+<<<<<<< Updated upstream:docs/SciencesCourses/firstSemester/cosc101/key points.md
 Babbage designed a more ambitious machine, called the Analytical Engine but 
 
 unfortunately it was also only partially completed.                                                                                                                                **EVOLUTION AND GENERATIONS OF COMPUTERS                                                                                                                First Generation Computers** 
@@ -58,12 +77,15 @@ The period of first generation was 1945-1959. The computers of first generation
 used vacuum tubes as the basic components for memory and circuitry for CPU 
 
 *Central Processing Unit*.                                                                                                                                **Characteristics of First Generation Computers** 
+=======
+**Characteristics of First Generation Computers** 
+>>>>>>> Stashed changes:docs/SciencesCourses/Level_1/firstSemester/cosc101/key points.md
 
 - Used vacuum tube technology 
 - Supported machine language only 
 - Generated lot of heat 
 - Slow input and output devices 
-- Huge size                                                                                                                                                                                                                    
+- Huge size   
 - Non-portable 
 - Consumed lot of electricity 
 

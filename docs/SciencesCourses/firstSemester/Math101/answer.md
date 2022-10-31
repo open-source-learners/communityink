@@ -2,12 +2,20 @@
 sidebar_position: 2
 ---
 # Solution 2017 and 2019 Past Question 
+<<<<<<< Updated upstream:docs/SciencesCourses/firstSemester/Math101/answer.md
 Solved by **Usman Ardo Darumfah**  
+=======
+solved by **Usman Ardo Darumfah**  
+>>>>>>> Stashed changes:docs/SciencesCourses/Level_1/firstSemester/Math101/answer.md
 
 # Question 2017
 ![](2017.png)
 
+<<<<<<< Updated upstream:docs/SciencesCourses/firstSemester/Math101/answer.md
 # SolutionS
+=======
+# Solutions
+>>>>>>> Stashed changes:docs/SciencesCourses/Level_1/firstSemester/Math101/answer.md
 
 ![](img/ans17a.png)
 ![](img/ans17b.png)
