@@ -3,8 +3,8 @@ sidebar_position: 1
 ---
 
 
-# Cosc101 keypoints                                                                                                                                 
-**computer** can be defined as an electronic device that takes data as input from the user, processes the data under control of set of instructions (called program),stores the data and generates result as output in a 
+# Cosc 101 Keypoints                                                                                                                                 
+**Computer** can be defined as an electronic device that takes data as input from the user, processes the data under control of set of instructions (called program),stores the data and generates result as output in a 
 required format. 
 
 Any digital computer carries out five functions as follows: 
@@ -23,9 +23,9 @@ picoseconds.                                                                    
 
 In addition to being very fast, computers are very accurate.                                                                                                                              ***Storage*** 
 
-A computer has much more storage capacity than human beings. It can store 
+A computer has a very large storage capacity. It can store 
 
-large amount of data such as images, videos, text, audio and many others.                                                                                                   ***Diligence*** 
+large amount of data such as images, videos, text, audios and many others.                                                                                                   ***Diligence*** 
 
 Unlike human beings, a computer is free from monotony, tiredness and lack of 
 
@@ -57,7 +57,7 @@ The period of first generation was 1945-1959. The computers of first generation
 
 used vacuum tubes as the basic components for memory and circuitry for CPU 
 
-*Central Processing Unit*.                                                                                                                                                                  **Characteristics of First Generation Computers** 
+*Central Processing Unit*.                                                                                                                                **Characteristics of First Generation Computers** 
 
 - Used vacuum tube technology 
 - Supported machine language only 
@@ -69,13 +69,14 @@ used vacuum tubes as the basic components for memory and circuitry for CPU
 
 Some computers of this generation were: ENIAC, EDVAC, UNIVAC, IBM-701, IBM- 
 
-\650.                                                                                                                                                                                                           **Second Generation Computers** 
+\650.                             **Second Generation Computers** 
 
 The period of second generation was 1959-1965. In this generation transistors 
 
 were used that were cheaper, consumed less power, more compact in size, more 
 
-reliable and faster than the first generation machines made of vacuum tubes.**                                                                                    The main features of second generation computers are: 
+reliable and faster than the first generation machines made of vacuum tubes.
+            **The main features of second generation computers are:**
 
 - Use of transistors 
 - Reliable in comparison to first generation computers 

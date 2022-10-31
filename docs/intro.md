@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
 ---
-# courses materials
+# Courses Materials
 
-welcome to Community ink where we store 
+Welcome to Community Ink where we store academic materials and resouces according to each course.

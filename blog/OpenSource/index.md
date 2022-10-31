@@ -8,9 +8,9 @@ design is publicly accessible.
 
 Unlike proprietary software, open source software is computer software that is developed as a public, open collaboration and made freely available to the public.
 
-The term originated in the context of software development to designate a specific approach to creating computer programs. Today, however, "open source" designates a broader set of values—what we call **"the open source way."** Open source projects, products, or initiatives embrace and celebrate principles of open exchange, collaborative participation, rapid prototyping, transparency, meritocracy, and community-oriented development.
+The term originated in the context of software development to designate a specific approach to creating computer programs. Today, however, "open source" designates a broader set of values—what we call **"The Open Source Way."** Open source projects, products, or initiatives embrace and celebrate principles of open exchange, collaborative participation, rapid prototyping, transparency, meritocracy, and community-oriented development.
 
-# Why Open Source
+# Why Open Source ?
 Nowadays open source has changed the face of technology. It allows customers to know how the code works, promotes a free exchange of ideas within a community to drive creativity, facilitating the development of the most innovative software and allows reuse and recycling of code, making it easier to collaborate and achieve goals. Open source projects allow you to collaborate and network with people around the world, and getting started is becoming more accessible than ever.
 
 # Some benefits of open source:
@@ -31,7 +31,7 @@ Nowadays open source has changed the face of technology. It allows customers to 
 
 # What is Hacktoberfest?
 
-HACKTOBERFEST IS DIGITALOCEAN’S ANNUAL EVENT THAT ENCOURAGES PEOPLE TO CONTRIBUTE TO OPEN SOURCE **THROUGHOUT OCTOBER**. MUCH OF MODERN TECH INFRASTRUCTURE—INCLUDING SOME OF DIGITALOCEAN’S OWN PRODUCTS—RELIES ON OPEN-SOURCE PROJECTS BUILT AND MAINTAINED BY PASSIONATE PEOPLE WHO OFTEN DON’T HAVE THE STAFF OR BUDGETS TO DO MUCH MORE THAN KEEP THE PROJECT ALIVE. HACKTOBERFEST IS ALL ABOUT GIVING BACK TO THOSE PROJECTS, SHARPENING SKILLS, AND CELEBRATING ALL THINGS OPEN SOURCE, ESPECIALLY THE PEOPLE THAT MAKE OPEN SOURCE SO SPECIAL.
+Hacktoberfest is Digitalocean’s annual event that encourages people to contribute to open source **throughout october**. Much of modern tech infrastructure—including some of Digitalocean’s own products—relies on open-source projects built and maintained by passionate people who often don’t have the staff or budgets to do much more than keep the project alive. Hacktoberfest is all about giving back to those projects, sharpening skills, and celebrating all things open source, especially the people that make open source so special.
 
 Hacktoberfest is a month-long open-source celebration, their maintainers, the entire community of contributors and GitHub's largest contributor drive. It's a great opportunity to get involved with the open-source community, learn something new and earn swag. No matter your expertise, you and can be a part of Hacktoberfest.
 
@@ -46,7 +46,7 @@ If your goal is to learn how to collaborate with others or understand how open s
 
 You can add your open source contributions to your resume or website to show companies what you can do!
 
-# Learn open source on this website.
+# Learn Open Source On This Website.
 
 Projects that awaits your contribution
 Here are some starter projects you can start with:

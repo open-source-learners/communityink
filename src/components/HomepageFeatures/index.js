@@ -17,7 +17,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_community_re_cyrm.svg').default,
     description: (
       <>
-        Do work that matters. Choose to participate in initiatives that will positively impact the world and help make a difference in your community
+        Do work that matters. Choose to participate in initiatives that will positively impact the world and help make a difference in your community.
       </>
     ),
   },
