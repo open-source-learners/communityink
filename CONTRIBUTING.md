@@ -6,23 +6,23 @@ This website is built using [Docusaurus 2](https://docusaurus.io/), a modern sta
 
 # Who can Contribute?
 
-There is no specific skill needed, therefore any one can contribute regardless of which field or background you are coming from, whether you are a programmer, UI/UX Designer, writer or any other not mentioned skill here.
+There is no specific skill needed, therefore any one can contribute regardless of which field or background you are coming from, whether you are a programmer, UI/UX Designer, writer or any other skills not mentioned here.
 
 # How to Contribute?
 
 ### You have a feature That you wnat it to be added to the app?
 
-create an Issue describing the the fearture you are having.
-Or if you are a developer and you worked the new feature, just make a pull request.
+Create an issue describing the the fearture you are having, 
+Or if you are a developer and you have worked the new feature, just make a pull request.
 
 ### You come accross problem/bug or strange behaviour while working with the app?
 
-create an Issue addressing the bad behaviour and how it supposed to be.
-Additionally if you have an idea of how to solve the problem explain the solution. Or if you are developer and you solved the problem, just make a pull request.
+Create an issue addressing the bad behaviour and how it supposed to be.
+Additionally, if you have an idea of how to solve the problem explain the solution. Or if you are developer and you solved the problem, just make a pull request.
 
 ### You come accross a typing error in the home page while working with the app?
 
-Contribute by creating an Issue describing the typo.
+Contribute by creating an issue describing the typo.
 Or just make a pull request if you have already corrected the typo.
 
 ## For Developers To Get Started

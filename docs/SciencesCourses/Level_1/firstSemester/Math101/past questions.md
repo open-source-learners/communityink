@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-## past Question 2017
+## Past Question 2017
 
 ![](2017.png)
 

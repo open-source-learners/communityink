@@ -1,4 +1,4 @@
-# Test past Question
+# Test Past Questions
 
 ![](20testGeneral.png)
 

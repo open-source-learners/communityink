@@ -1,4 +1,4 @@
-# math103 excises Questions
+# Math 103 Exercise Questions
 
 ![](img/Quations.png)
 
