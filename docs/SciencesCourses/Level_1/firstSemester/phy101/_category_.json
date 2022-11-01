@@ -1,0 +1,16 @@
+{
+<<<<<<< Updated upstream:docs/SciencesCourses/firstSemester/phy101/_category_.json
+  "label": "phy 101",
+<<<<<<< HEAD:docs/SciencesCourses/firstSemester/phy101/_category_.json
+  "position": 9,
+=======
+  "label": "Phy 101",
+  "position": 10,
+>>>>>>> Stashed changes:docs/SciencesCourses/Level_1/firstSemester/phy101/_category_.json
+=======
+  "position": 10,
+>>>>>>> 2eafd99c8e631b9efcf491ff0588b29f92d39e1c:docs/SciencesCourses/Level_1/firstSemester/phy101/_category_.json
+  "link": {
+    "type": "generated-index"
+  }
+}

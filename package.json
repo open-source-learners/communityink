@@ -16,8 +16,13 @@
   "dependencies": {
     "@docusaurus/core": "^2.2.0",
     "@docusaurus/plugin-google-gtag": "^2.2.0",
+<<<<<<< HEAD
     "@docusaurus/plugin-pwa": "^2.1.0",
     "@docusaurus/preset-classic": "2.1.0",
+=======
+    "@docusaurus/plugin-pwa": "^2.2.0",
+    "@docusaurus/preset-classic": "^2.2.0",
+>>>>>>> 2eafd99c8e631b9efcf491ff0588b29f92d39e1c
     "@mdx-js/react": "^1.6.22",
     "clsx": "^1.2.1",
     "hast-util-is-element": "^1.1.0",
@@ -31,7 +36,7 @@
     "typewriter-effect": "^2.19.0"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "2.1.0"
+    "@docusaurus/module-type-aliases": "^2.2.0"
   },
   "browserslist": {
     "production": [
