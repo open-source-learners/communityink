@@ -15,13 +15,13 @@ function HomepageHeader() {
       <div className="container">
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">
-        <Typewriter
+         <Typewriter
             options={{
               strings: ['Alone we can do so little; together we can do so much.', 'Talent wins games, but teamwork and intelligence win championships', 'Knowledge sharing is essential to economic survival'],
               autoStart: true,
               loop: true,
             }}
-          />
+          /> 
         </p>
         <div className={styles.buttons}>
           <Link
@@ -30,6 +30,7 @@ function HomepageHeader() {
             Quality Education 
           </Link>
         </div>
+        <h3 className={styles.welcome}>Welcome to Community Ink </h3>
       </div>
     </header>
   );

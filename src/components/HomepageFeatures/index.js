@@ -30,6 +30,33 @@ const FeatureList = [
       </>
     ),
   },
+  {
+    title: 'Community',
+    Svg: require('@site/static/img/undraw_team_re_0bfe.svg').default,
+    description: (
+      <>
+        When you sign on to making a positive impact in your community, your story including your life experiences, skills and passions will provide inspiration to others.
+      </>
+    ),
+  },
+  {
+    title: 'Community',
+    Svg: require('@site/static/img/undraw_team_re_0bfe.svg').default,
+    description: (
+      <>
+        When you sign on to making a positive impact in your community, your story including your life experiences, skills and passions will provide inspiration to others.
+      </>
+    ),
+  },
+  {
+    title: 'Focus on What Matters',
+    Svg: require('@site/static/img/undraw_community_re_cyrm.svg').default,
+    description: (
+      <>
+        Do work that matters. Choose to participate in initiatives that will positively impact the world and help make a difference in your community
+      </>
+    ),
+  },
 ];
 
 function Feature({Svg, title, description}) {

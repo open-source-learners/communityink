@@ -172,7 +172,7 @@ const config = {
               {
                 type: 'doc',
                 label: 'HandBook',
-                docId: 'handBook/handBook',
+                docId: 'HandBook/HandBook',
               },
               {
                 type: 'doc',
