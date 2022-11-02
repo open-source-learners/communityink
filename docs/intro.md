@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
 ---
-# courses materials
+# Courses Materials
 
-welcome to Community ink where we store 
+Welcome to *Community Ink* where we store usefull materials and resources base on the Faculty of Science only.
