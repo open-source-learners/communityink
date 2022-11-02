@@ -1,13 +1,13 @@
 ---
 sidebar_position: 2
 ---
-# Solution 2017 and 2019 past Question 
+# Solution 2017 and 2019 Past Question 
 solved by **Usman Ardo Darumfah**  
 
 # Question 2017
 ![](2017.png)
 
-# Solution
+# Solutions
 
 ![](img/ans17a.png)
 ![](img/ans17b.png)
@@ -24,7 +24,7 @@ solved by **Usman Ardo Darumfah**
 # Question 2019
 ![](img/2019pQ.png)
 
-# Solution
+# Solutions
 ![](img/ans19a.png)
 ![](img/ans19b.png)
 ![](img/ans19c.png)
