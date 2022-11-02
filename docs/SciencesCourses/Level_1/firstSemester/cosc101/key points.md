@@ -3,7 +3,7 @@ sidebar_position: 1
 ---
 
 
-# Cosc101 keypoints                                                                                                                                 
+# Cosc101 Keypoints                                                                                                                                 
 **computer** can be defined as an electronic device that takes data as input from the user, processes the data under control of set of instructions (called program),stores the data and generates result as output in a 
 required format. 
 

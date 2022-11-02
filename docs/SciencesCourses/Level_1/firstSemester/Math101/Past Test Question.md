@@ -1,8 +1,8 @@
-# 2019 test Questions
+# 2019 Test Questions
 
 ![](img/testQ.png)
 
-# Solution 2019 test Question 
+# Solution 2019 Test Question 
 solved by **Usman Ardo Darumfah** 
 
 ![](img/test01.png)
