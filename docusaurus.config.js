@@ -177,7 +177,7 @@ const config = {
               {
                 type: 'docSidebar',
                 label: 'Faculties',
-                sidebarId: 'Department',
+                sidebarId: 'Faculties',
                 
               },
               // {
@@ -215,7 +215,7 @@ const config = {
             items: [
               {
                 label: 'Materials',
-                to: '/docs/',
+                to: '/docs/Faculties',
               },
             ],
           },
