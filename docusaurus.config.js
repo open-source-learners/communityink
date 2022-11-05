@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'community Ink',
+  title: 'Community Ink',
   tagline: '',
   url: 'https://communityink.netlify.app/',
   baseUrl: '/',
@@ -153,7 +153,7 @@ const config = {
       },
       navbar: {
         // hideOnScroll: true,
-        title: 'community ink',
+        title: 'Community Ink',
         logo: {
           alt: 'My Site Logo',
           src: 'img/favicon/logo.png',
