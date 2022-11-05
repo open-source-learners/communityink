@@ -214,8 +214,9 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Materials',
-                to: '/docs/Faculties',
+                label: 'faculties',
+                to: 'docs/category/faculties'
+                
               },
             ],
           },
