@@ -175,23 +175,23 @@ const config = {
                 docId: 'HandBook/HandBook',
               },
               {
-                type: 'doc',
-                label: 'Science',
-                docId: 'intro',
+                type: 'docSidebar',
+                label: 'Faculties',
+                sidebarId: 'Department',
                 
               },
-              {
-                type: 'doc',
-                label: 'Arts and Social Science',
-                docId: 'intro',
+              // {
+              //   type: 'doc',
+              //   label: 'Arts and Social Science',
+              //   // docId: 'intro',
                 
-              },
-              {
-                type: 'doc',
-                label: 'Education',
-                docId: 'intro',
+              // },
+              // {
+              //   type: 'doc',
+              //   label: 'Education',
+              //   // docId: 'intro',
                 
-              },
+              // },
                      
             ],
           },
@@ -215,7 +215,7 @@ const config = {
             items: [
               {
                 label: 'Materials',
-                to: '/docs/intro',
+                to: '/docs/',
               },
             ],
           },
