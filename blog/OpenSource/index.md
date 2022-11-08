@@ -1,3 +1,10 @@
+---
+slug: open source
+title: open source
+authors: [AdamsGeeky]
+tags: [open source, Education]
+---
+
 # Hacktoberfest
 
 
