@@ -1,6 +1,6 @@
 ---
 slug: welcome
-title: Welcome
+title: Quality Of Education
 authors: [AdamsGeeky]
 tags: [SDG, Global Goals, Education]
 ---

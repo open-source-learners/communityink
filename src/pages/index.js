@@ -30,7 +30,7 @@ function HomepageHeader() {
             Quality Education 
           </Link>
         </div>
-        <h3 className={styles.welcome}>Welcome to Community Ink </h3>
+        <h3 className={styles.welcome}>Welcome to Digital Solution For Every learners </h3>
       </div>
     </header>
   );
@@ -41,7 +41,7 @@ export default function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="GSU 100 level past question and answer <head />">
+      description="Gombe State University Resources Platform <head />">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
