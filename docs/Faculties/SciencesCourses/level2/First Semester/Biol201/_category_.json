@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
+  "label": "Bio 101",
+=======
   "label": "Biol 201",
+>>>>>>> 12baf6fd776e20d6e7631132e3a7540cf36d97ab
   "position": 5,
   "link": {
     "type": "generated-index"
