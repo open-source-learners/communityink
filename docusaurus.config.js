@@ -14,8 +14,27 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon/favicon.ico',
   
-  //plugin progressive web app
+  // Creative Club blogs
   plugins: [
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        /**
+         * Required for any multi-instance plugin
+         */
+        id: 'CreativeBlog',
+        /**
+         * URL route for the blog section of your site.
+         * *DO NOT* include a trailing slash.
+         */
+        routeBasePath: 'CreativeBlog',
+        /**
+         * Path to data on filesystem relative to site dir.
+         */
+        path: './CreativeBlog',
+      },
+    ],
+    //plugin progressive web app
     [
       '@docusaurus/plugin-pwa',
       {
@@ -81,6 +100,7 @@ const config = {
       },
     ],
   ],
+    
 // plugins end here
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -117,7 +137,7 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
-          // google analytics 4
+              // google analytics 4
         gtag: { 
                 trackingID: 'G-TEZF0NJ9BE',
                 anonymizeIP: true,
@@ -127,13 +147,40 @@ const config = {
   ],
 
   //navbar
+  // themes: ['@docusaurus/theme-search-algolia'],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      // SEO
+      metadata: [{name: 'keywords', content: 'GSU, GOMBE STATE UNIVERSITY, COMMUNITY INK'}],
       // 
       liveCodeBlock: {
         playgroundPosition: 'bottom',
       }, 
+      // // search features
+      // algolia: {
+      //   // The application ID provided by Algolia
+      //   appId: 'YOUR_APP_ID',
+  
+      //   // Public API key: it is safe to commit it
+      //   apiKey: 'YOUR_SEARCH_API_KEY',
+  
+      //   indexName: 'YOUR_INDEX_NAME',
+  
+      //   // Optional: see doc section below
+      //   contextualSearch: true,
+  
+      //   // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
+      //   externalUrlRegex: 'external\\.com|domain\\.com',
+  
+      //   // Optional: Algolia search parameters
+      //   searchParameters: {},
+  
+      //   // Optional: path for search page that enabled by default (`false` to disable it)
+      //   searchPagePath: 'search',
+  
+      //   //... other Algolia params
+      // },
       // ducs
       docs: {
         sidebar: {
@@ -197,6 +244,7 @@ const config = {
             ],
           },
           {to: '/blog', label: 'Blogs', position: 'left'},
+          {to: '/CreativeBlog', label: 'CreativeBlogs', position: 'left'},
           {
             href: 'https://github.com/open-source-learners/communityink',
             position: 'right',
