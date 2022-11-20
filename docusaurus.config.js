@@ -146,8 +146,7 @@ const config = {
     ],
   ],
 
-  //navbar
-  // themes: ['@docusaurus/theme-search-algolia'],
+  /** Navbar head config */
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -227,30 +226,26 @@ const config = {
                 label: 'Faculties',
                 sidebarId: 'Faculties',
                 
-              },
-              // {
-              //   type: 'doc',
-              //   label: 'Arts and Social Science',
-              //   // docId: 'intro',
-                
-              // },
-              // {
-              //   type: 'doc',
-              //   label: 'Education',
-              //   // docId: 'intro',
-                
-              // },
-                     
+              },                    
             ],
           },
-          {to: '/blog', label: 'Blogs', position: 'left'},
-          {to: '/CreativeBlog', label: 'CreativeBlogs', position: 'left'},
+          /* blogs */
           {
-            href: 'https://github.com/open-source-learners/communityink',
-            position: 'right',
-            className: 'header-github-link',
-            'aria-label': 'GitHub repository',
+            type: 'dropdown',
+            label: 'Blogs',
+            position: 'left',
+            items: [
+              {to: '/blog', label: 'Generals'},
+              {to: '/CreativeBlog', label: 'CreativeClub'},          
+            ],
           },
+         
+          // {
+          //   href: 'https://github.com/open-source-learners/communityink',
+          //   position: 'right',
+          //   className: 'header-github-link',
+          //   'aria-label': 'GitHub repository',
+          // },
 
         ],
       },
