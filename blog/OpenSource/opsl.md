@@ -1,8 +1,8 @@
 ﻿---
-slug: open source
+slug: open source learners
 title: Open Source Learners
 authors: [Mubarac404]
-tags: [open source, Education]
+tags: []
 ---
 # OPEN SOURCE LEARNERS
 
