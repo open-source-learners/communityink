@@ -1,11 +1,14 @@
-﻿
+﻿---
+slug: open source learners
+title: Open Source Learners
+authors: [Mubarac404]
+tags: []
+---
 # OPEN SOURCE LEARNERS
 
 ***Tech for community impact*** 
 
-WRITTEN BY 
-
-**OPEN SOURCE TEAM** 
+Written by **Open Source Team** 
 
 **WHAT IS OPEN SOURCE LEARNERS ?** 
 

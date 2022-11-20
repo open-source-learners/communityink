@@ -1,14 +1,13 @@
 ---
 slug: open source
-title: open source
+title: Open Source
 authors: [AdamsGeeky]
 tags: [open source, Education]
 ---
 
 # Hacktoberfest
 
-
-# What is Open Source?
+## What is Open Source?
 
 The term **open source** refers to something people can modify and share because its 
 design is publicly accessible.
