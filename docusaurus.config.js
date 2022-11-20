@@ -193,7 +193,7 @@ const config = {
         id: 'announcementBar-2', // Increment on change
         isCloseable: false,
         content: 
-         'We are looking to revamp our docs, please fill <a target="_blank" rel="noopener noreferrer" href="https://forms.gle/AfUgcHo8Tdc4qgCc8">this survey</a>',
+         'We need your feedbacks, please fill <a target="_blank" rel="noopener noreferrer" href="https://forms.gle/AfUgcHo8Tdc4qgCc8">this survey</a>',
          backgroundColor: '#fafbfc',
         //  #4fddbf ,#fafbfc
          textColor: '#091E42',
@@ -219,7 +219,7 @@ const config = {
             items: [
               {
                 type: 'doc',
-                label: 'HandBook',
+                label: 'Hand Book',
                 docId: 'HandBook/HandBook',
               },
               {
