@@ -279,7 +279,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'faculties',
+                label: 'Faculties',
                 to: 'docs/category/faculties'
                 
               },
@@ -297,7 +297,7 @@ const config = {
                 href: 'https://github.com/open-source-learners/',
               },
               {
-                label: 'whatsApp',
+                label: 'WhatsApp',
                 href: 'https://github.com/open-source-learners/',
               },
             ],
