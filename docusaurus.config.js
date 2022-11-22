@@ -16,6 +16,7 @@ const config = {
   
   // Creative Club blogs
   plugins: [
+    /** Creative Club */
     [
       '@docusaurus/plugin-content-blog',
       {
@@ -32,6 +33,25 @@ const config = {
          * Path to data on filesystem relative to site dir.
          */
         path: './CreativeBlog',
+      },
+    ],
+     /** MNNS PRESS Club */
+     [
+      '@docusaurus/plugin-content-blog',
+      {
+        /**
+         * Required for any multi-instance plugin
+         */
+        id: 'MssnBlog',
+        /**
+         * URL route for the blog section of your site.
+         * *DO NOT* include a trailing slash.
+         */
+        routeBasePath: 'MssnBlog',
+        /**
+         * Path to data on filesystem relative to site dir.
+         */
+        path: './MssnBlog',
       },
     ],
     //plugin progressive web app
@@ -236,7 +256,8 @@ const config = {
             position: 'left',
             items: [
               {to: '/blog', label: 'Generals'},
-              {to: '/CreativeBlog', label: 'CreativeClub'},          
+              {to: '/CreativeBlog', label: 'Creative Club'},
+              {to: '/MssnBlog', label: 'MSSN Press Club' },          
             ],
           },
          
