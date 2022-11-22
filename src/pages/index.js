@@ -17,7 +17,7 @@ function HomepageHeader() {
         <p className="hero__subtitle">
          <Typewriter
             options={{
-              strings: ['Alone we can do so little; together we can do so much.', 'Talent wins games, but teamwork and intelligence win championships', 'Knowledge sharing is essential to economic survival'],
+              strings: ['Alone we can do so little; together we can do so much.', 'Talent wins games, but teamwork and intelligence win championships', 'Knowledge sharing is essential to economic survival', 'If you think education is expensive, try ignorance', 'Investment in Knowledge pays the best interest' ],
               autoStart: true,
               loop: true,
             }}
@@ -30,7 +30,7 @@ function HomepageHeader() {
             Quality Education 
           </Link>
         </div>
-        <h3 className={styles.welcome}>Welcome to Digital Solution For Every learners </h3>
+        <h3 className={styles.welcome}>Welcome to Digital Solution For Every Learner </h3>
       </div>
     </header>
   );
