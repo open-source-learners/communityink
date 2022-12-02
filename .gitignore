@@ -3,7 +3,7 @@
 
 # Production
 /build
-
+ClinicalScience
 # Generated files
 .docusaurus
 .cache-loader
