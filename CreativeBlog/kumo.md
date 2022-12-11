@@ -2,7 +2,7 @@
 slug: my_nirvana
 title: MY NIRVANA
 authors: [AuwalKumo,CCGSU]
-tags: [poetry, Writing, poems]
+tags: [Poetry, Writing, Poems]
 ---
 
 ![](img/ccgsu.jpg)
