@@ -44,6 +44,6 @@ Go to the OpenAI [website](https://openai.com/)
 
 ## In conclusion
 
-As a language model, I can provide a wide range of information and assistance to help university students succeed in their studies. I can help you navigate the vast amount of information and resources that are available and make the most of your university experience. **ChatGPT** As a machine and cannot replace the human interaction of teacher or mentor, but It can provide a wide range of information and assistance to help students succeed in their studies.
+As a language model, **ChatGPT**  can provide a wide range of information and assistance to help university students succeed in their studies. **ChatGPT**  can help you navigate the vast amount of information and resources that are available and make the most of your university experience. **ChatGPT** As a machine and cannot replace the human interaction of teacher or mentor, but It can provide a wide range of information and assistance to help students succeed in their studies.
 
 Thanks for reading
