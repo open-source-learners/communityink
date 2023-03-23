@@ -19,44 +19,6 @@ const config = {
   
   // Creative Club blogs
   plugins: [
-    /** Creative Club */
-    [
-      '@docusaurus/plugin-content-blog',
-      {
-        /**
-         * Required for any multi-instance plugin
-         */
-        id: 'CreativeBlog',
-        /**
-         * URL route for the blog section of your site.
-         * *DO NOT* include a trailing slash.
-         */
-        routeBasePath: 'CreativeBlog',
-        /**
-         * Path to data on filesystem relative to site dir.
-         */
-        path: './CreativeBlog',
-      },
-    ],
-     /** MNNS PRESS Club */
-     [
-      '@docusaurus/plugin-content-blog',
-      {
-        /**
-         * Required for any multi-instance plugin
-         */
-        id: 'MssnBlog',
-        /**
-         * URL route for the blog section of your site.
-         * *DO NOT* include a trailing slash.
-         */
-        routeBasePath: 'MssnBlog',
-        /**
-         * Path to data on filesystem relative to site dir.
-         */
-        path: './MssnBlog',
-      },
-    ],
     //plugin progressive web app
     [
       '@docusaurus/plugin-pwa',
@@ -125,14 +87,8 @@ const config = {
   ],
     
 // plugins end here
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'open-source-learners', // Usually your GitHub org/user name.
+  organizationName: 'open-source-learners', 
   projectName: 'communityink', // Usually your repo name.
-
-  // Even if you don't use internalization, you can use this field to set useful
-  // metadata like html lang. For example, if your site is Chinese, you may want
-  // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -224,30 +180,6 @@ const config = {
          textColor: '#091E42',
         //  `⭐️ If you like Community Ink, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/open-source-learners/comminityink">GitHub</a>`,
       },
-      // Algolia
-          // algolia: {
-          //   // The application ID provided by Algolia
-          //   appId: 'DWFUZTRBYV',
-      
-          //   // Public API key: it is safe to commit it
-          //   apiKey: 'YOUR_SEARCH_API_KEY',
-      
-          //   indexName: 'YOUR_INDEX_NAME',
-      
-          //   // Optional: see doc section below
-          //   contextualSearch: true,
-      
-          //   // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
-          //   externalUrlRegex: 'external\\.com|domain\\.com',
-      
-          //   // Optional: Algolia search parameters
-          //   searchParameters: {},
-      
-          //   // Optional: path for search page that enabled by default (`false` to disable it)
-          //   searchPagePath: 'search',
-      
-          //   //... other Algolia params
-          // },
       // navbar 
       navbar: {
         // hideOnScroll: true,
@@ -268,11 +200,6 @@ const config = {
             position: 'left',
             items: [
               {
-                type: 'doc',
-                label: 'Hand Book',
-                docId: 'HandBook/HandBook',
-              },
-              {
                 type: 'docSidebar',
                 label: 'Faculties',
                 sidebarId: 'Faculties',
@@ -286,19 +213,9 @@ const config = {
             label: 'Blogs',
             position: 'left',
             items: [
-              {to: '/blog', label: 'Generals'},
-              {to: '/CreativeBlog', label: 'Creative Club'},
-              {to: '/MssnBlog', label: 'MSSN Press Club' },          
+              {to: '/blog', label: 'Generals'}          
             ],
           },
-         
-          // {
-          //   href: 'https://github.com/open-source-learners/communityink',
-          //   position: 'right',
-          //   className: 'header-github-link',
-          //   'aria-label': 'GitHub repository',
-          // },
-
         ],
       },
       stylesheets: [
@@ -338,7 +255,7 @@ const config = {
               },
               {
                 label: 'WhatsApp',
-                href: 'https://github.com/open-source-learners/',
+                href: 'https://chat.whatsapp.com/FLe6SMFmPqV9tSFTbpGqrz/',
               },
             ],
           },
@@ -356,7 +273,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} open-source-learners, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} open-source-learners`,
       },
       prism: {
         theme: lightCodeTheme,
