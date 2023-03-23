@@ -201,7 +201,7 @@ const config = {
             items: [
               {
                 type: 'docSidebar',
-                label: 'Faculties',
+                label: 'Science',
                 sidebarId: 'Faculties',
                 
               },                    
@@ -246,11 +246,11 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Telegram',
-                href: 'https://github.com/open-source-learners/',
+                label: 'linkedin',
+                href: 'https://www.linkedin.com/company/opls/',
               },
               {
-                label: 'Discord',
+                label: 'github',
                 href: 'https://github.com/open-source-learners/',
               },
               {
