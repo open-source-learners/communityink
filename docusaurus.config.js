@@ -338,7 +338,7 @@ const config = {
               },
               {
                 label: 'WhatsApp',
-                href: 'https://github.com/open-source-learners/',
+                href: 'https://chat.whatsapp.com/FLe6SMFmPqV9tSFTbpGqrz,
               },
             ],
           },
