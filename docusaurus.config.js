@@ -273,7 +273,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} open-source-learners`,
+        copyright: `Copyright © ${new Date().getFullYear()} AdamsGeeky`,
       },
       prism: {
         theme: lightCodeTheme,
