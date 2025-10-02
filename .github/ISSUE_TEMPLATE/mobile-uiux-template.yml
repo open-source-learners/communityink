@@ -1,0 +1,36 @@
+name: "📱 Mobile UI/UX Design Issues"
+description: "Pick a Mobile UI/UX feature to design."
+labels: ["hacktoberfest", "design", "ui/ux", "mobile", "good first issue"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        📱 Thanks for contributing!  
+        Choose one of the following **Mobile UI/UX design issues** to work on.
+
+  - type: checkboxes
+    id: mobile-uiux-list
+    attributes:
+      label: "Choose a Mobile UI/UX Issue"
+      options:
+        - label: Onboarding Screens for New Users
+        - label: Home Dashboard for Students
+        - label: Mobile Timetable (Swipeable)
+        - label: Mobile School Calendar
+        - label: Push Notification UI
+        - label: Club Discovery Cards
+        - label: Event RSVP/Join Flow
+        - label: Navigation Pattern (Tabs vs Side Menu)
+        - label: Resource Upload Flow
+        - label: Smart Search Bar with Suggestions
+        - label: Club Member List View
+        - label: Profile Editing Screen
+        - label: Faculty vs Departmental President Controls
+        - label: Campus Map Mobile View
+        - label: Daily Reminder / Habit-Forming UI
+
+  - type: textarea
+    id: design-link
+    attributes:
+      label: "Design Deliverable"
+      description: "Upload your PNG/JPG or paste Figma/Canva link."

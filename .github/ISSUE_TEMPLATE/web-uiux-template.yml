@@ -1,0 +1,36 @@
+name: "🎨 Web UI/UX Design Issues"
+description: "Pick a Web UI/UX feature to design."
+labels: ["hacktoberfest", "design", "ui/ux", "web", "good first issue"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        🎨 Thanks for contributing!  
+        Choose one of the following **Web UI/UX design issues** to work on.
+
+  - type: checkboxes
+    id: web-uiux-list
+    attributes:
+      label: "Choose a Web UI/UX Issue"
+      options:
+        - label: Design Dashboard Layout for SRC
+        - label: Faculty President vs Departmental President Dashboards
+        - label: Club Listing Page (Search + Filters)
+        - label: School Calendar (Month/Week/Day)
+        - label: Event Detail Page (with RSVP)
+        - label: Club Management Interface
+        - label: Resource Library Layout
+        - label: Location Finder UI (Search + Map)
+        - label: Notification Center Design
+        - label: Student Profile Page (UG Number-based)
+        - label: Login/Registration Page
+        - label: Search Results UI
+        - label: Club Join Flow
+        - label: Dark Mode Toggle
+        - label: Responsive Layout Guide (Desktop vs Laptop)
+
+  - type: textarea
+    id: design-link
+    attributes:
+      label: "Design Deliverable"
+      description: "Upload your PNG/JPG or paste Figma/Canva link."

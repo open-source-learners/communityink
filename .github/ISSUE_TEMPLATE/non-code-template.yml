@@ -1,0 +1,48 @@
+name: "✨ Non-Code Contribution"
+description: Suggest or contribute non-code improvements (docs, writing, design assets, community, outreach)
+labels: ["non-code", "contribution"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: "📝 Summary"
+      description: Briefly describe your contribution or suggestion (docs, design, event org, blog, etc.)
+      placeholder: "Example: Create contributor onboarding guide in docs/"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: "📂 Category"
+      description: Select the type of non-code contribution
+      options:
+        - Documentation (new/updates)
+        - Translation
+        - Copy Editing
+        - Blog Post / Tutorial
+        - Case Study
+        - Event Organization
+        - Social Media / Outreach
+        - Video / Podcast
+        - Graphic Design
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: "💡 Details"
+      description: Provide more details, context, or mockups if relevant.
+      placeholder: "Explain why this contribution matters or how it will help the community"
+    validations:
+      required: false
+
+  - type: textarea
+    id: resources
+    attributes:
+      label: "📎 Resources / References"
+      description: Link to any docs, examples, or assets you’ll use
+    validations:
+      required: false
