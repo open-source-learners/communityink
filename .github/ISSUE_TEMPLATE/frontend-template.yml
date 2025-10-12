@@ -1,77 +1,87 @@
-name: 🚧 Frontend Component
-description: Contribute by building a frontend UI component using Next.js, ShadCN, and TailwindCSS
-title: '[feat] Component: <Component Name>'
-labels: ['frontend', 'good first issue', 'help wanted']
-assignees:
-  - AdamsGeeky
+name: "🚀 MVP - Foundation Feature Issue"
+description: "Report, suggest, or work on a feature within the MVP Foundation phase of CommunityInk"
+title: "[MVP] <Feature Name> — <Short Description>"
+labels: ["phase: MVP", "frontend", "backend", "priority: medium"]
+assignees: []
+
 body:
-  - type: textarea
+  - type: markdown
     attributes:
-      label: 📌 Component Overview
-      description: |
-        Describe the purpose and expected behavior of this frontend component.
-        Provide links to any design prototypes or references (Figma, Notion, etc.)
-        Helpful for understanding how this component fits into the app.
-      placeholder: |
-        This component is responsible for rendering...
-        It is located on the homepage/dashboard/profile page etc.
-    validations:
-      required: true
-
-  - type: textarea
-    attributes:
-      label: 🧱 UI Elements & Interactions
-      description: |
-        List and describe the main UI elements this component will include.
-        Include animation, responsiveness, dark/light mode if applicable.
       value: |
-        - ✅ Button: Triggers a new post submission
-        - ✅ Card: Displays each user’s post with metadata
-        - ✅ Modal: For adding/editing a post
+        ## 🌱 MVP - Foundation
+        Core functionality to connect the campus community with essential features for students, clubs, and academic management.
+        Please fill in the details below clearly and precisely.
+
+  - type: dropdown
+    id: feature-area
+    attributes:
+      label: "🧭 Feature Area"
+      description: "Select which module this issue belongs to"
+      options:
+        - Authentication Flow
+        - Announcements Feed
+        - Timetable & Calendar
+        - Clubs Directory
+        - Departments Directory
+        - Profile Management
     validations:
       required: true
 
   - type: textarea
+    id: feature-description
     attributes:
-      label: 📚 Learning Resources (Required Before Starting)
-      description: |
-        Links and tutorials that contributors can review to complete this task.
-        Add or update if you found new helpful material!
+      label: "🧠 Feature Overview"
+      description: "Briefly describe what this feature does and why it matters."
+      placeholder: "e.g. Implement user registration with UG number verification for student identity validation."
+    validations:
+      required: true
+
+  - type: textarea
+    id: tasks
+    attributes:
+      label: "🛠️ Development Tasks"
+      description: "List the specific technical tasks or sub-features required to complete this feature."
       value: |
-        - [ShadCN UI Documentation](https://ui.shadcn.dev/docs/components)
-        - [Next.js App Router Docs](https://nextjs.org/docs/app/building-your-application/routing)
-        - [TailwindCSS Docs](https://tailwindcss.com/docs)
-        - [React Components Crash Course](https://www.youtube.com/watch?v=bMknfKXIFA8)
-        - [Props & State in React](https://react.dev/learn/passing-props-to-a-component)
-    validations:
-      required: true
+        - [ ] Task 1
+        - [ ] Task 2
+        - [ ] Task 3
+      render: markdown
 
   - type: textarea
+    id: acceptance-criteria
     attributes:
-      label: ✅ Prerequisites
-      description: |
-        What should the contributor already understand before picking this task?
-        Use this to ensure beginner contributors are not overwhelmed.
+      label: "✅ Acceptance Criteria"
+      description: "List what must be true for this issue to be considered complete."
       value: |
-        - Basic understanding of React functional components
-        - Familiar with TailwindCSS utility classes
-        - Knows how to use `useState`, `useEffect`, and `props`
-        - Has installed Node.js and run a Next.js app locally
-    validations:
-      required: true
+        - [ ] Feature works as intended on staging
+        - [ ] UI aligns with Figma design
+        - [ ] Tested across devices
+        - [ ] Code reviewed and merged to main
+      render: markdown
 
   - type: textarea
+    id: api-endpoints
     attributes:
-      label: 📷 Design References or Screenshots (Optional)
-      description: Add any Figma link, screenshot, or UI inspiration that describes how this should look.
-      placeholder: Paste image links or embed markdown here.
-    validations:
-      required: false
+      label: "🔗 API / Backend Requirements"
+      description: "If this feature interacts with the backend, list the required endpoints or data models."
+      placeholder: "e.g. POST /api/auth/register, GET /api/announcements"
 
   - type: textarea
+    id: design-reference
     attributes:
-      label: 💡 Additional Notes
-      description: Any edge cases, dependencies, or file paths to keep in mind while building this.
-      placeholder: This component should be responsive and mobile-first. You may reuse components from /ui or /shared folders.
-    validations:
-      required: false
+      label: "🎨 Design Reference"
+      description: "Link to Figma wireframe or design prototype (if available)"
+      placeholder: "Figma link or design notes"
+
+  - type: textarea
+    id: testing-notes
+    attributes:
+      label: "🧪 Testing Notes"
+      description: "Outline how to test this feature manually or automatically."
+      placeholder: "e.g. Login with UG20/SCCS/1001 and verify personalized dashboard loads."
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: "📎 Additional Context"
+      description: "Add any other context, screenshots, or references here."
