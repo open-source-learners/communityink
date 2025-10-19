@@ -1,27 +1,25 @@
-import React, { useState } from 'react';
-import { Card, CardContent, CardHeader, CardTitle } from '../ui/card';
-import { Tabs, TabsContent, TabsList, TabsTrigger } from '../ui/tabs';
-import { Badge } from '../ui/badge';
-import { Button } from '../ui/button';
-import { Sheet, SheetContent, SheetTrigger } from '../ui/sheet';
+import { useState } from 'react';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+import { Badge } from '@/components/ui/badge';
+import { Button } from '@/components/ui/button';
+import { Sheet, SheetContent } from '@/components/ui/sheet';
 import { 
   Home, 
   Calendar, 
   Users, 
-  BookOpen, 
-  Bell, 
+  Building,
   User,
   Clock,
   MapPin,
-  GraduationCap,
-  Menu,
-  X,
-  Building
+  Bell
 } from 'lucide-react';
-import { Announcements } from './Announcements';
-import { TimetableCalendar } from './TimetableCalendar';
-import { ClubsDirectory } from './ClubsDirectory';
-import { DepartmentsDirectory } from './DepartmentsDirectory';
+import { Header } from '@/components/layout/Header';
+import { Announcements } from '../announcements/Announcements';
+import { TimetableCalendar } from '../timetable/TimetableCalendar';
+import { ClubsDirectory } from '../clubs/ClubsDirectory';
+import { DepartmentsDirectory } from '../departments/DepartmentsDirectory';
+import { Sidebar, MobileSidebar } from '@/components/layout/Sidebar';
 
 const MOCK_ANNOUNCEMENTS = [
   {
@@ -63,123 +61,37 @@ const MOCK_CLUBS = [
   { name: 'Photography Club', members: 89, category: 'Arts' },
 ];
 
-type Screen = 'home' | 'announcements' | 'timetable' | 'calendar' | 'clubs' | 'departments' | 'profile';
+type Screen = 'home' | 'announcements' | 'timetable' | 'calendar' | 'clubs' | 'departments' | 'profile' | 'settings' | 'help' | 'logout';
 
 export function Dashboard() {
   const [currentScreen, setCurrentScreen] = useState<Screen>('home');
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [isMobileSidebarOpen, setIsMobileSidebarOpen] = useState(false);
 
   const navigateTo = (screen: Screen) => {
     setCurrentScreen(screen);
-    setMobileMenuOpen(false);
   };
 
   return (
     <div className="flex h-screen bg-background overflow-hidden">
       {/* Desktop Sidebar */}
-      <aside className="hidden lg:flex w-64 bg-card border-r border-border flex-col">
-        <div className="p-6 border-b border-border">
-          <div className="flex items-center gap-2">
-            <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-              <GraduationCap className="w-6 h-6 text-white" />
-            </div>
-            <div>
-              <h2 className="font-semibold">CommunityInk</h2>
-              <p className="text-xs text-muted-foreground">GSU</p>
-            </div>
-          </div>
-        </div>
-
-        <nav className="flex-1 p-4 space-y-1">
-          <NavItem icon={<Home />} label="Home" active={currentScreen === 'home'} onClick={() => navigateTo('home')} />
-          <NavItem icon={<Bell />} label="Announcements" active={currentScreen === 'announcements'} onClick={() => navigateTo('announcements')} />
-          <NavItem icon={<Calendar />} label="Timetable & Calendar" active={currentScreen === 'timetable'} onClick={() => navigateTo('timetable')} />
-          <NavItem icon={<Users />} label="Clubs" active={currentScreen === 'clubs'} onClick={() => navigateTo('clubs')} />
-          <NavItem icon={<Building />} label="Departments" active={currentScreen === 'departments'} onClick={() => navigateTo('departments')} />
-          <NavItem icon={<User />} label="Profile" active={currentScreen === 'profile'} onClick={() => navigateTo('profile')} />
-        </nav>
-
-        <div className="p-4 border-t border-border">
-          <div className="flex items-center gap-3">
-            <div className="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center">
-              <User className="w-5 h-5 text-primary" />
-            </div>
-            <div className="flex-1">
-              <p className="text-sm">AdamsGeeky</p>
-              <p className="text-xs text-muted-foreground">UG20/SCCS/1001</p>
-            </div>
-          </div>
-        </div>
-      </aside>
-
+      <div className="hidden lg:block">
+        <Sidebar currentScreen={currentScreen} onNavigate={navigateTo} />
+      </div>
+      
       {/* Mobile Sidebar */}
-      <Sheet open={mobileMenuOpen} onOpenChange={setMobileMenuOpen}>
-        <SheetContent side="left" className="w-64 p-0">
-          <div className="flex flex-col h-full">
-            <div className="p-6 border-b border-border">
-              <div className="flex items-center justify-between mb-4">
-                <div className="flex items-center gap-2">
-                  <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-                    <GraduationCap className="w-6 h-6 text-white" />
-                  </div>
-                  <div>
-                    <h2 className="font-semibold">CommunityInk</h2>
-                    <p className="text-xs text-muted-foreground">GSU</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <nav className="flex-1 p-4 space-y-1">
-              <NavItem icon={<Home />} label="Home" active={currentScreen === 'home'} onClick={() => navigateTo('home')} />
-              <NavItem icon={<Bell />} label="Announcements" active={currentScreen === 'announcements'} onClick={() => navigateTo('announcements')} />
-              <NavItem icon={<Calendar />} label="Timetable & Calendar" active={currentScreen === 'timetable'} onClick={() => navigateTo('timetable')} />
-              <NavItem icon={<Users />} label="Clubs" active={currentScreen === 'clubs'} onClick={() => navigateTo('clubs')} />
-              <NavItem icon={<Building />} label="Departments" active={currentScreen === 'departments'} onClick={() => navigateTo('departments')} />
-              <NavItem icon={<User />} label="Profile" active={currentScreen === 'profile'} onClick={() => navigateTo('profile')} />
-            </nav>
-
-            <div className="p-4 border-t border-border">
-              <div className="flex items-center gap-3">
-                <div className="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center">
-                  <User className="w-5 h-5 text-primary" />
-                </div>
-                <div className="flex-1">
-                  <p className="text-sm">AdamsGeeky</p>
-                  <p className="text-xs text-muted-foreground">UG20/SCCS/1001</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </SheetContent>
-      </Sheet>
+      <MobileSidebar 
+        currentScreen={currentScreen} 
+        onNavigate={navigateTo}
+        isOpen={isMobileSidebarOpen}
+        onOpenChange={setIsMobileSidebarOpen}
+      />
 
       {/* Main Content */}
       <main className="flex-1 overflow-auto">
-        <header className="bg-card border-b border-border px-4 md:px-8 py-4 sticky top-0 z-10">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center gap-3">
-              <Button
-                variant="ghost"
-                size="icon"
-                className="lg:hidden"
-                onClick={() => setMobileMenuOpen(true)}
-              >
-                <Menu className="h-5 w-5" />
-              </Button>
-              <div>
-                <h1 className="text-xl md:text-2xl">Welcome back, AdamsGeeky 👋</h1>
-                <p className="text-sm text-muted-foreground hidden sm:block">
-                  Here's what's happening on campus today
-                </p>
-              </div>
-            </div>
-            <Button variant="ghost" size="icon" className="relative">
-              <Bell className="h-5 w-5" />
-              <span className="absolute top-1 right-1 w-2 h-2 bg-primary rounded-full" />
-            </Button>
-          </div>
-        </header>
+        <Header 
+          onMenuClick={() => setIsMobileSidebarOpen(true)} 
+          userName="AdamsGeeky" 
+        />
 
         <div className="p-4 md:p-8">
           {currentScreen === 'home' && <HomeScreen navigateTo={navigateTo} />}
@@ -200,7 +112,7 @@ function NavItem({ icon, label, active = false, onClick }: { icon: React.ReactNo
       onClick={onClick}
       className={`w-full flex items-center gap-3 px-4 py-2.5 rounded-lg transition-colors ${
         active
-          ? 'bg-primary text-white'
+          ? 'bg-green-600 text-white hover:bg-green-700'
           : 'text-foreground hover:bg-muted'
       }`}
     >
