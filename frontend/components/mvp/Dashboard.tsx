@@ -8,13 +8,13 @@ import {
   Home, 
   Calendar, 
   Users, 
-  Bell, 
   Building,
   User,
   Clock,
   MapPin,
-  Menu
+  Bell
 } from 'lucide-react';
+import { Header } from '../features/layout/Header';
 import { Announcements } from './Announcements';
 import { TimetableCalendar } from './TimetableCalendar';
 import { ClubsDirectory } from './ClubsDirectory';
@@ -88,30 +88,10 @@ export function Dashboard() {
 
       {/* Main Content */}
       <main className="flex-1 overflow-auto">
-        <header className="bg-card border-b border-border px-4 md:px-8 py-4 sticky top-0 z-10">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center gap-3">
-              <Button
-                variant="ghost"
-                size="icon"
-                className="lg:hidden"
-                onClick={() => setIsMobileSidebarOpen(true)}
-              >
-                <Menu className="h-5 w-5" />
-              </Button>
-              <div>
-                <h1 className="text-xl md:text-2xl">Welcome back, AdamsGeeky 👋</h1>
-                <p className="text-sm text-muted-foreground hidden sm:block">
-                  Here's what's happening on campus today
-                </p>
-              </div>
-            </div>
-            <Button variant="ghost" size="icon" className="relative">
-              <Bell className="h-5 w-5" />
-              <span className="absolute top-1 right-1 w-2 h-2 bg-primary rounded-full" />
-            </Button>
-          </div>
-        </header>
+        <Header 
+          onMenuClick={() => setIsMobileSidebarOpen(true)} 
+          userName="AdamsGeeky" 
+        />
 
         <div className="p-4 md:p-8">
           {currentScreen === 'home' && <HomeScreen navigateTo={navigateTo} />}
