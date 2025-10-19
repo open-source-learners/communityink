@@ -1,9 +1,9 @@
 import { useState } from 'react';
-import { Card, CardContent, CardHeader, CardTitle } from '../ui/card';
-import { Tabs, TabsContent, TabsList, TabsTrigger } from '../ui/tabs';
-import { Badge } from '../ui/badge';
-import { Button } from '../ui/button';
-import { Sheet, SheetContent } from '../ui/sheet';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+import { Badge } from '@/components/ui/badge';
+import { Button } from '@/components/ui/button';
+import { Sheet, SheetContent } from '@/components/ui/sheet';
 import { 
   Home, 
   Calendar, 
@@ -14,12 +14,12 @@ import {
   MapPin,
   Bell
 } from 'lucide-react';
-import { Header } from '../features/layout/Header';
-import { Announcements } from './Announcements';
-import { TimetableCalendar } from './TimetableCalendar';
-import { ClubsDirectory } from './ClubsDirectory';
-import { DepartmentsDirectory } from './DepartmentsDirectory';
-import { Sidebar, MobileSidebar } from '../features/layout/Sidebar';
+import { Header } from '@/components/layout/Header';
+import { Announcements } from '../announcements/Announcements';
+import { TimetableCalendar } from '../timetable/TimetableCalendar';
+import { ClubsDirectory } from '../clubs/ClubsDirectory';
+import { DepartmentsDirectory } from '../departments/DepartmentsDirectory';
+import { Sidebar, MobileSidebar } from '@/components/layout/Sidebar';
 
 const MOCK_ANNOUNCEMENTS = [
   {

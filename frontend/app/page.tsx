@@ -1,7 +1,7 @@
 "use client";
 
 // MVP Dashboard
-import { Dashboard } from '@/components/mvp/Dashboard';
+import { Dashboard } from '@/components/features/dashboard/Dashboard';
 
 export default function App() {
 
