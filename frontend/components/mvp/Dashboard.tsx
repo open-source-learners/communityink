@@ -61,7 +61,7 @@ const MOCK_CLUBS = [
   { name: 'Photography Club', members: 89, category: 'Arts' },
 ];
 
-type Screen = 'home' | 'announcements' | 'timetable' | 'calendar' | 'clubs' | 'departments' | 'profile' | 'settings' | 'logout';
+type Screen = 'home' | 'announcements' | 'timetable' | 'calendar' | 'clubs' | 'departments' | 'profile' | 'settings' | 'help' | 'logout';
 
 export function Dashboard() {
   const [currentScreen, setCurrentScreen] = useState<Screen>('home');
