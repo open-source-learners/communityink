@@ -67,7 +67,7 @@ export function Sidebar({ currentScreen = 'home', onNavigate }: SidebarProps) {
       {/* Toggle Button */}
       <motion.button
         onClick={toggleSidebar}
-        className="absolute -right-3 top-6 z-20 flex h-6 w-6 items-center justify-center rounded-full border bg-background shadow-md"
+        className="absolute -right-3 top-6 z-20 flex h-6 w-6 items-center justify-center rounded-full border bg-background shadow-md cursor-pointer"
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.95 }}
       >
@@ -139,7 +139,7 @@ export function Sidebar({ currentScreen = 'home', onNavigate }: SidebarProps) {
                   <button
                     onClick={() => handleItemClick(item.label)}
                     className={cn(
-                      "group flex w-full items-center rounded-md px-3 py-2.5 text-sm font-medium transition-all duration-200 ease-out",
+                      "group flex w-full items-center rounded-md px-3 py-2.5 text-sm font-medium transition-all duration-200 ease-out cursor-pointer",
                       isActive
                         ? "bg-green-600/10 text-green-600"
                         : "text-muted-foreground hover:bg-accent/80 hover:text-accent-foreground"
@@ -331,7 +331,7 @@ export function MobileSidebar({ currentScreen = 'home', onNavigate, isOpen, onOp
                             onOpenChange(false);
                           }}
                           className={cn(
-                            "flex w-full items-center rounded-lg px-4 py-3 text-sm font-medium transition-all duration-200",
+                            "flex w-full items-center rounded-lg px-4 py-3 text-sm font-medium transition-all duration-200 cursor-pointer",
                             isActive
                               ? "bg-green-50 text-green-700"
                               : "text-foreground/80 hover:bg-accent/80"
